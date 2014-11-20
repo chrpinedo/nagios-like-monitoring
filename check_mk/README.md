@@ -15,6 +15,8 @@ Brief description of the scripts available:
   requires a cron job to be schedule periodically to refresh the apt-get
   database. This script is located under the  local-checks-cron folder and is
   called debian.updates.cron-task.sh.
+* rancid.sh: Monitor rancid. It allows monitoring that one of severals groups
+  of rancid are being backed up and that the devices are up and not down.
 
 
 ### Install
