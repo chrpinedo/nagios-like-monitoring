@@ -1,0 +1,3 @@
+[submodule "check_mk/backuppc"]
+	path = check_mk/backuppc
+	url = git@github.com:chrpinedo/backuppc-checkmk.git
