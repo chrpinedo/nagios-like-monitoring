@@ -21,7 +21,7 @@ for group in $RANCID_GROUPS; do
 		fi
 	done
 	echo "$status Rancid_${group}_state - $statustxt"
-	for device in `cat $RANCID_DIR/$group/routers.all 2>/dev/null | cut -d ":" -f 1`; do
+	for device in `cat $RANCID_DIR/$group/routers.all 2>/dev/null | cut -d ";" -f 1`; do
 		status=3
 		statustxt="UNKNOWN - $device is unknow to backup"
 		if grep $device $RANCID_DIR/$group/routers.up >/dev/null 2>&1; then
